@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_bar {
+  width: 100%;
+  height: 54px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+.content_box {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+
+  width: 78.3%;
+  height: 100%;
+}
+
+.recommend_func {
+  width: 100%;
+  height: 84px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+.friend_recommend {
+  width: 293px;
+  height: 100%;
+  border: 1px solid black;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 1;
+}
+.pic_box {
+  width: 614px;
+  height: 1000px;
+  border: 1px solid black;
+}
