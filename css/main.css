@@ -31,7 +31,24 @@ html,body {
   border: 1px solid black;
   z-index: 1;
 }
+/* 메뉴 반응형 */
+@media (max-width: 523px) {
+  .menu_bar {
+    /* 왜  justify-content가 적용되지 않는 것인가?!?!?
+    미디어 쿼리의 스타일 중첩때문임
+    미디어 쿼리 적용하기전 스타일이 있으면 바꿀 수 없다.
+    자바스크립트로 변경해야함
+    */
+    justify-content: space-between;
+  }
+  .search_box {
+    position: absolute;
+    top: -100%
+  }
+  
 
+}
+/* 게시판 반응형 */
 @media (max-width: 1000px) {
   .content_box{
     display: block;
