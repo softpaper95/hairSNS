@@ -39,7 +39,7 @@ html,body {
     미디어 쿼리 적용하기전 스타일이 있으면 바꿀 수 없다.
     자바스크립트로 변경해야함
     */
-    justify-content: space-between;
+   
   }
   .search_box {
     position: absolute;

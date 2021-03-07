@@ -9,6 +9,7 @@
   justify-content: space-around;
   /* items들의 높이의 중간정렬을 유지 */
   align-items: center;
+  background-color: bisque;
 }
 
 .logo_box {
