@@ -22,6 +22,9 @@
 #left_btn {
   left: 10%;
 }
+.hide {
+  opacity: 0;
+}
 
 .names_box {
   width: 100%;
