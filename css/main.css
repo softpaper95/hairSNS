@@ -39,7 +39,6 @@ html,body {
     미디어 쿼리 적용하기전 스타일이 있으면 바꿀 수 없다.
     자바스크립트로 변경해야함
     */
-   
   }
   .search_box {
     position: absolute;
@@ -54,8 +53,8 @@ html,body {
     display: block;
   }
   .main_box {
-     min-width: 600px;
-     margin: 0 auto;
+    min-width: 600px;
+    margin: 0 auto;
   }
   .friend_recommend {
     position: absolute;

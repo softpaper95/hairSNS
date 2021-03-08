@@ -4,6 +4,23 @@
   padding: 0;
   margin-bottom: 30px;
   border: 1px solid black;
+  position: relative;
+}
+
+.slide_btn i {
+  font-size: 25px;
+  z-index: 20;
+  color: bisque;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#right_btn {
+  right: 10%;
+}
+#left_btn {
+  left: 10%;
 }
 
 .names_box {
@@ -13,18 +30,14 @@
   margin-top: 14px;
   position: relative;
   /* overflow: hidden; */
+  left: 0px;
+  /* -320px 오른쪽 한칸 */
 }
 
 .names {
-  width: 80px;
+  width: 320px;
   height: 120px;
   border: 1px solid black;
   background-color: blue;
   position: absolute;
-}
-
-#name2 {
-  left: 80px;
-}
-#name3 {
 }
