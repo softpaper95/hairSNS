@@ -1,0 +1,110 @@
+.friend_recommend {
+  top: 10%;
+  width: 293px;
+  list-style: none;
+  /* 
+    의문
+    왜 height에 값을 주면 오히려 줄어드는 걸까??
+    예) height를 100%하면 글자높이만큼 줄어든다.
+    -> 높이를 자식 요소에 따르는게 아닌가?
+     */
+  min-width: 293px;
+  order: 2;
+  border: 1px solid black;
+  z-index: 1;
+  padding: 0;
+  height: 100%;
+}
+
+.my_info {
+  margin-top: 10px;
+  width: 100%;
+  height: 56px;
+  position: relative;
+}
+.my_info i {
+  font-size: 56px;
+  float: left;
+  margin-left: 10px;
+}
+.name_box {
+  width: 160px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.name_box p {
+  margin: 0;
+  margin-left: 30px;
+}
+.id {
+  font-weight: bold;
+}
+.switch {
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+.recommend {
+  margin-top: 27px;
+  width: 100%;
+  height: 19px;
+  position: relative;
+}
+.for_user {
+  margin: 0;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.see_every {
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+.f_recommend {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.f_recommend li {
+  height: 48px;
+  width: 100%;
+  position: relative;
+}
+.f_recommend li i {
+  font-size: 32px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.f_id {
+  margin: 0;
+  position: absolute;
+  left: 28%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+.follow {
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}

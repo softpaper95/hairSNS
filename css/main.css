@@ -3,6 +3,7 @@ html,body {
   padding: 0;
 }
 .content_box {
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,25 +13,13 @@ html,body {
 }
 
 .main_box {
+  
   width: 51.4%;
   min-width: 500px;
   margin-right: 30px;
   border: 1px solid black;
 }
-.friend_recommend {
-  width: 293px;
-  height: auto;
-  /* 
-  의문
-  왜 height에 값을 주면 오히려 줄어드는 걸까??
-  예) height를 100%하면 글자높이만큼 줄어든다.
-  -> 높이를 자식 요소에 따르는게 아닌가?
-   */
-  min-width: 293px;
-  order: 2;
-  border: 1px solid black;
-  z-index: 1;
-}
+
 /* 메뉴 반응형 */
 @media (max-width: 523px) {
   .menu_bar {

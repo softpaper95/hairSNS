@@ -24,7 +24,7 @@ next_btn.addEventListener('click',function(){
     current_pg += 1;
     n_slide_box.style.left='-'+(current_pg*320)+'px';
     // 마지막 슬라이드면 #right_btn 안보이게, 아니라면 보이게
-    if (current_pg == n_len-2){
+    if (current_pg == n_len-1){
         next_btn.classList.add('disabled');
     // else 구문 주의!!
     //슬라이드가 마지막 장으로 갔을때 next_btn에는 disabled가 적용되므로

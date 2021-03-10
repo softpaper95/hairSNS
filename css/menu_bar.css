@@ -10,6 +10,16 @@
   /* items들의 높이의 중간정렬을 유지 */
   align-items: center;
   background-color: bisque;
+  z-index: 2;
+}
+/* #menu_bar.shrink {
+  justify-content: space-between;
+}
+##menu_bar.notShrink {
+  justify-content: space-around;
+} */
+#menu_bar.fixed {
+  position: fixed;
 }
 
 .logo_box {
