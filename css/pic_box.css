@@ -1,5 +1,133 @@
 .pic_box {
   width: 100%;
-  height: 1000px;
+
   border: 1px solid black;
+}
+.pic_containter {
+  width: 100%;
+  border: 1px solid bisque;
+  margin-bottom: 60px;
+}
+.id_box {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+.id_box > * {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+}
+.fa-user-circle {
+  font-size: 32px;
+  left: 4%;
+  transform: translateY(-50%);
+}
+.id_box_id {
+  left: 12%;
+  transform: translate(-50%, -50%);
+}
+.fa-ellipsis-h {
+  right: 4%;
+  transform: translateY(-50%);
+}
+
+.picture {
+  width: 100%;
+  height: 614px;
+  position: relative;
+  /* overflow: hidden; */
+}
+.picture img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.multi_func {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.multi_func > * {
+  margin: 0;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fa-heart {
+  left: 30px;
+}
+.fa-comment {
+  left: 74px;
+}
+.fa-share-alt {
+  left: 118px;
+}
+.fa-bookmark {
+  right: 30px;
+}
+.like_func {
+  width: 100%;
+  height: 18px;
+  position: relative;
+}
+.like_func p {
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.chat_sc {
+  width: 100%;
+  height: 88px;
+  position: relative;
+}
+.chat_box {
+  border: 1px solid blue;
+  width: 89%;
+  height: 86px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.input_chat {
+  width: 100%;
+  height: 56px;
+}
+.input_chat_box {
+  margin: 0 auto;
+
+  width: 89%;
+  height: 56px;
+  position: relative;
+}
+.input_chat_box > * {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+}
+.fa-smile {
+  font-size: 24px;
+  left: 0;
+  transform: translateY(-50%);
+}
+.comment_box {
+  border: none;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 86%;
+}
+.input_chat_box p {
+  font-size: 15px;
+  right: 0;
+  transform: translateY(-50%);
 }

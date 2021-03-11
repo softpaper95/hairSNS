@@ -24,8 +24,10 @@
 }
 .my_info i {
   font-size: 56px;
-  float: left;
-  margin-left: 10px;
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .name_box {
   width: 160px;

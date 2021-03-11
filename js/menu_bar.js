@@ -1,5 +1,5 @@
 // const search_box = document.querySelector(".search_box")
-const menu= document.getElementById("menu_bar");
+// const menu= document.getElementById("menu_bar");
 
 // function search_box_hide() {
 //     if(window.screen.width<500){
