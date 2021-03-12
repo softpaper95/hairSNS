@@ -15,14 +15,14 @@ function hide(){
 //슬라이드 펼치기
 function unfold(){
     for(i=0; i<n_len; i++){
-        n_slides[i].style.left=i*320+'px';
+        n_slides[i].style.left=i*340+'px';
     }
 };
 
 //n_slide_box 오른쪽 이동
 next_btn.addEventListener('click',function(){
     current_pg += 1;
-    n_slide_box.style.left='-'+(current_pg*320)+'px';
+    n_slide_box.style.left='-'+(current_pg*340)+'px';
     // 마지막 슬라이드면 #right_btn 안보이게, 아니라면 보이게
     if (current_pg == n_len-1){
         next_btn.classList.add('disabled');
@@ -41,7 +41,7 @@ next_btn.addEventListener('click',function(){
 // prev_btn 누르면 n_slide_box 왼쪽으로 이동
 prev_btn.addEventListener('click',function(){
     current_pg -= 1;
-    n_slide_box.style.left='-'+(current_pg*320)+'px';
+    n_slide_box.style.left='-'+(current_pg*340)+'px';
     if (current_pg == 0){
         prev_btn.classList.add('disabled');
     }else{
