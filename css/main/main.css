@@ -3,7 +3,6 @@ html,body {
   padding: 0;
 }
 .content_box {
-  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,9 +12,9 @@ html,body {
 }
 
 .main_box {
-  
   width: 51.4%;
   min-width: 500px;
+  max-width: 600px;
   margin-right: 30px;
   /* border: 1px solid black; */
 }
