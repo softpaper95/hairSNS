@@ -25,18 +25,22 @@
 .logo_box {
   width: 103px;
   height: 29px;
-  border: 1px solid black;
 
   /* position: absolute;
   left: 10.85%;
   top: 50%;
   margin-top: -14.5px; */
 }
+.logo_box p {
+  margin: 0;
+  font-family: "Redressed", cursive;
+  font-size: 29px;
+}
 
 .search_box {
   width: 215px;
   height: 28px;
-  border: 1px solid black;
+
   /* position: absolute;
   top: 0;
   left: 0;
@@ -44,13 +48,21 @@
   bottom: 0;
   margin: auto; */
 }
+.search_func {
+  width: 215px;
+  height: 28px;
+}
 .icon_box {
   width: 198px;
   height: 22px;
-  border: 1px solid black;
 
   /* position: absolute;
   right: 10.85%;
   top: 50%;
   margin-top: -14.5px; */
+}
+.icon_box i {
+  margin: 0;
+  font-size: 22px;
+  margin-right: 12px;
 }
