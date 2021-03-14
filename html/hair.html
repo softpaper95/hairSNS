@@ -9,11 +9,11 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/main/main.css">
-    <link rel="stylesheet" href="css/main/menu_bar.css">
-    <link rel="stylesheet" href="css/main/recommend_func.css">
-    <link rel="stylesheet" href="css/main/pic_box.css">
-    <link rel="stylesheet" href="css/main/friend_recommend.css">
+    <link rel="stylesheet" href="../css/main/main.css">
+    <link rel="stylesheet" href="../css/main/menu_bar.css">
+    <link rel="stylesheet" href="../css/main/recommend_func.css">
+    <link rel="stylesheet" href="../css/main/pic_box.css">
+    <link rel="stylesheet" href="../css/main/friend_recommend.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
 </head>
@@ -49,58 +49,58 @@
                         <li class="names" id="name1">
                             <div class="name_circle">
                                 
-                                <img src="photo/pic2.jpeg" alt="">
+                                <img src="../photo/pic2.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic1.jpeg" alt="">
+                                <img src="../photo/pic1.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic3.jpeg" alt="">
+                                <img src="../photo/pic3.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic4.jpeg" alt="">
+                                <img src="../photo/pic4.jpeg" alt="">
                             </div>
                         </li>
                         <li class="names" id="name2">
                             <div class="name_circle">
-                                <img src="photo/pic2.jpeg" alt="">
+                                <img src="../photo/pic2.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic1.jpeg" alt="">
+                                <img src="../photo/pic1.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic3.jpeg" alt="">
+                                <img src="../photo/pic3.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic4.jpeg" alt="">
+                                <img src="../photo/pic4.jpeg" alt="">
                             </div>
                         </li>
                         <li class="names" id="name3">
                             <div class="name_circle">
-                                <img src="photo/pic2.jpeg" alt="">
+                                <img src="../photo/pic2.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic1.jpeg" alt="">
+                                <img src="../photo/pic1.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic3.jpeg" alt="">
+                                <img src="../photo/pic3.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic4.jpeg" alt="">
+                                <img src="../photo/pic4.jpeg" alt="">
                             </div>
                         </li>
                         <li class="names" id="name4">
                             <div class="name_circle">
-                                <img src="photo/pic2.jpeg" alt="">
+                                <img src="../photo/pic2.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic1.jpeg" alt="">
+                                <img src="../photo/pic1.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic3.jpeg" alt="">
+                                <img src="../photo/pic3.jpeg" alt="">
                             </div>
                             <div class="name_circle">
-                                <img src="photo/pic4.jpeg" alt="">
+                                <img src="../photo/pic4.jpeg" alt="">
                             </div>
                         </li>
                     </div>
@@ -115,7 +115,7 @@
                         <i class="fas fa-ellipsis-h"></i>
                    </div>
                    <div class="picture">
-                    <img src="photo/pic2.jpeg" alt="">
+                    <img src="../photo/pic2.jpeg" alt="">
                    </div>
                    <div class="multi_func">
                     <i class="far fa-heart"></i>
@@ -128,7 +128,16 @@
                    </div>
                    <div class="chat_sc">
                     <div class="chat_box">
-                        chat_box
+                        <div id="commentPlus">
+                            <div>
+                                <span class="commentUser">minho</span>
+                                <span class = "commentMsg">댓글달고 지우기</span>
+                            </div>
+                        </div>
+                        <div id="typeComment">
+                            <input type="text" class="input_cmt" placeholder="댓글 달기...">
+                            <span><button type = "submit" class="sendBtn">게시</button></span>
+                        </div>    
                     </div>
                    </div>
                    <div class="input_chat">
@@ -147,7 +156,7 @@
                      <i class="fas fa-ellipsis-h"></i>
                 </div>
                 <div class="picture">
-                 <img src="photo/pic4.jpeg" alt="">
+                 <img src="../photo/pic4.jpeg" alt="">
                 </div>
                 <div class="multi_func">
                  <i class="far fa-heart"></i>
@@ -179,7 +188,7 @@
                      <i class="fas fa-ellipsis-h"></i>
                 </div>
                 <div class="picture">
-                 <img src="photo/pic3.jpeg" alt="">
+                 <img src="../photo/pic3.jpeg" alt="">
                 </div>
                 <div class="multi_func">
                  <i class="far fa-heart"></i>
@@ -211,7 +220,7 @@
                      <i class="fas fa-ellipsis-h"></i>
                 </div>
                 <div class="picture">
-                 <img src="photo/pic1.jpeg" alt="">
+                 <img src="../photo/pic1.jpeg" alt="">
                 </div>
                 <div class="multi_func">
                  <i class="far fa-heart"></i>
@@ -291,9 +300,10 @@
     
    
 
-    <script src="js/main/menu_bar.js"></script>
-    <script src="js/main/names_slide.js"></script>
-    <script src="js/main/scroll_fix.js"></script>
+    <script src="../js/main/menu_bar.js"></script>
+    <script src="../js/main/names_slide.js"></script>
+    <script src="../js/main/scroll_fix.js"></script>
+    <script src="../js/main/comment.js"></script>
 </body>
     
 </html>

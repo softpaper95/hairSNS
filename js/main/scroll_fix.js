@@ -10,5 +10,5 @@ document.addEventListener('scroll', function() {
         fixed_menu.classList.remove("fixed");
         
     }
-    console.log('currentScrollValue is ' + currentScrollValue);
+    // console.log('currentScrollValue is ' + currentScrollValue);
 });
