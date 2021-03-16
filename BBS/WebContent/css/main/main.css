@@ -1,0 +1,55 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+.content_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.main_box {
+  width: 51.4%;
+  min-width: 500px;
+  max-width: 600px;
+  margin-right: 30px;
+  /* border: 1px solid black; */
+}
+
+/* 메뉴 반응형 */
+@media (max-width: 523px) {
+  .menu_bar {
+    /* 왜  justify-content가 적용되지 않는 것인가?!?!?
+    미디어 쿼리의 스타일 중첩때문임
+    미디어 쿼리 적용하기전 스타일이 있으면 바꿀 수 없다.
+    자바스크립트로 변경해야함
+    */
+  }
+  .search_box {
+    position: absolute;
+    top: -100%
+  }
+  
+
+}
+/* 게시판 반응형 */
+@media (max-width: 1000px) {
+  .content_box{
+    display: block;
+  }
+  .main_box {
+    min-width: 600px;
+    margin: 0 auto;
+  }
+  .friend_recommend {
+    position: absolute;
+    left: -100%;
+  }
+@media (max-width: 800px) {
+  .main_box {
+  min-width: 500px;
+  }
+}

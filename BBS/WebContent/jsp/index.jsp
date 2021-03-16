@@ -1,0 +1,302 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hair SNS</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/main/main.css">
+    <link rel="stylesheet" href="../css/main/menu_bar.css">
+    <link rel="stylesheet" href="../css/main/recommend_func.css">
+    <link rel="stylesheet" href="../css/main/pic_box.css">
+    <link rel="stylesheet" href="../css/main/friend_recommend.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class= "menu_bar" id="menu_bar">
+        <div class="logo_box">
+            <p>Hair</p>
+        </div>
+        <div class="search_box">
+            <input type="text" class="search_func" placeholder="검색">
+        </div>
+        <div class="icon_box">
+            <i class="fas fa-home"></i>
+            <i class="fas fa-share-alt"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-user"></i>
+            
+        </div>
+    </div>
+        
+    <div class="content_box">
+        <div class="main_box">
+            <div class= "recommend_func">
+                <div class="slide_btn">
+                    <i class="fas fa-arrow-circle-right" id="right_btn"></i>
+                    <i class="fas fa-arrow-circle-left" id="left_btn"></i>
+                </div>
+                <div class="name_container">
+                    <div class="names_box">
+                        <li class="names" id="name1">
+                            <div class="name_circle">
+                                
+                                <img src="../photo/pic2.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic1.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic3.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic4.jpeg" alt="">
+                            </div>
+                        </li>
+                        <li class="names" id="name2">
+                            <div class="name_circle">
+                                <img src="../photo/pic2.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic1.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic3.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic4.jpeg" alt="">
+                            </div>
+                        </li>
+                        <li class="names" id="name3">
+                            <div class="name_circle">
+                                <img src="../photo/pic2.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic1.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic3.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic4.jpeg" alt="">
+                            </div>
+                        </li>
+                        <li class="names" id="name4">
+                            <div class="name_circle">
+                                <img src="../photo/pic2.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic1.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic3.jpeg" alt="">
+                            </div>
+                            <div class="name_circle">
+                                <img src="../photo/pic4.jpeg" alt="">
+                            </div>
+                        </li>
+                    </div>
+                </div>  
+            </div>
+            
+           <div class="pic_box">
+               <div class="pic_containter">
+                   <div class="id_box">
+                        <i class="fas fa-user-circle"></i>
+                        <p class="id_box_id">id</p>
+                        <i class="fas fa-ellipsis-h"></i>
+                   </div>
+                   <div class="picture">
+                    <img src="../photo/pic2.jpeg" alt="">
+                   </div>
+                   <div class="multi_func">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="fas fa-share-alt"></i>
+                    <i class="far fa-bookmark"></i>
+                   </div>
+                   <div class="like_func">
+                       <p>좋아요</p>
+                   </div>
+                   <div class="chat_sc">
+                    <div class="chat_box" id="chat_box">
+                        
+                    </div>
+                   </div>
+                   <div class="input_chat">
+                    <div class="input_chat_box">
+                        <i class="far fa-smile"></i>
+                        <input type="text" id="comment_box" placeholder="댓글달기...">
+                        <p id="chat_send" onclick="send_chat();">게시</p>
+                    </div>
+                   </div>
+
+               </div>
+               <div class="pic_containter">
+                <div class="id_box">
+                     <i class="fas fa-user-circle"></i>
+                     <p class="id_box_id">id</p>
+                     <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="picture">
+                 <img src="../photo/pic4.jpeg" alt="">
+                </div>
+                <div class="multi_func">
+                 <i class="far fa-heart"></i>
+                 <i class="far fa-comment"></i>
+                 <i class="fas fa-share-alt"></i>
+                 <i class="far fa-bookmark"></i>
+                </div>
+                <div class="like_func">
+                    <p>좋아요</p>
+                </div>
+                <div class="chat_sc">
+                 <div class="chat_box">
+                     chat_box
+                 </div>
+                </div>
+                <div class="input_chat">
+                 <div class="input_chat_box">
+                     <i class="far fa-smile"></i>
+                     <input type="text" class="comment_box" placeholder="댓글달기...">
+                     <p>게시</p>
+                 </div>
+                </div>
+
+                </div>
+                <div class="pic_containter">
+                <div class="id_box">
+                     <i class="fas fa-user-circle"></i>
+                     <p class="id_box_id">id</p>
+                     <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="picture">
+                 <img src="../photo/pic3.jpeg" alt="">
+                </div>
+                <div class="multi_func">
+                 <i class="far fa-heart"></i>
+                 <i class="far fa-comment"></i>
+                 <i class="fas fa-share-alt"></i>
+                 <i class="far fa-bookmark"></i>
+                </div>
+                <div class="like_func">
+                    <p>좋아요</p>
+                </div>
+                <div class="chat_sc">
+                 <div class="chat_box">
+                     chat_box
+                 </div>
+                </div>
+                <div class="input_chat">
+                 <div class="input_chat_box">
+                     <i class="far fa-smile"></i>
+                     <input type="text" class="comment_box" placeholder="댓글달기...">
+                     <p>게시</p>
+                 </div>
+                </div>
+
+                </div>
+                <div class="pic_containter">
+                <div class="id_box">
+                     <i class="fas fa-user-circle"></i>
+                     <p class="id_box_id">id</p>
+                     <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="picture">
+                 <img src="../photo/pic1.jpeg" alt="">
+                </div>
+                <div class="multi_func">
+                 <i class="far fa-heart"></i>
+                 <i class="far fa-comment"></i>
+                 <i class="fas fa-share-alt"></i>
+                 <i class="far fa-bookmark"></i>
+                </div>
+                <div class="like_func">
+                    <p>좋아요</p>
+                </div>
+                <div class="chat_sc">
+                 <div class="chat_box">
+                     chat_box
+                 </div>
+                </div>
+                <div class="input_chat">
+                 <div class="input_chat_box">
+                     <i class="far fa-smile"></i>
+                     <input type="text" class="comment_box" placeholder="댓글달기...">
+                     <p>게시</p>
+                 </div>
+                </div>
+
+                </div>
+           </div>
+        </div>
+        <ul class= "friend_recommend" id="friend_recommend">
+            <li class="my_info">
+                <i class="fas fa-user-circle"></i>
+                <div class="name_box">
+                    <p class="id">id</p>
+                    <p class="name">name</p>
+                </div>
+                <a class ="switch" href=""><p>전환</p></a>
+            </li>
+            <div class="recommend">
+                <p class="for_user">회원님을 위한 추천</p>
+                <a class ="see_every" href="">
+                    모두보기
+                </a>
+            </div>
+            <div class="f_recommend">
+                <li class="">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="f_id">friend id</p>
+                    <a href=""><p class="follow">팔로우</p></a>
+                </li>
+                <li class="">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="f_id">friend id</p>
+                    <a href=""><p class="follow">팔로우</p></a>
+                </li>
+                <li class="">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="f_id">friend id</p>
+                    <a href=""><p class="follow">팔로우</p></a>
+                </li>
+                <li class="">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="f_id">friend id</p>
+                    <a href=""><p class="follow">팔로우</p></a>
+                </li>
+                <li class="">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="f_id">friend id</p>
+                    <a href=""><p class="follow">팔로우</p></a>
+                </li>
+                <li class="">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="f_id">friend id</p>
+                    <a href=""><p class="follow">팔로우</p></a>
+                </li>
+            </div>
+        </ul> 
+        
+    </div>
+    
+   
+
+    <script src="../js/main/menu_bar.js"></script>
+    <script src="../js/main/names_slide.js"></script>
+    <script src="../js/main/scroll_fix.js"></script>
+    <script src="../js/main/comment.js"></script>
+</body>
+    
+</html>
